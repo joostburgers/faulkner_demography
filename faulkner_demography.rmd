@@ -8,7 +8,7 @@ output:
     theme: serif
     incremental: true
     self_contained: false
-    reveal_plugins: ["menu","zoom"]
+    reveal_plugins: ["menu","zoom","chalkboard"]
     reveal_options:
       width: 1680
       height: 1050
