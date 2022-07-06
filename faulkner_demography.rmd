@@ -138,7 +138,7 @@ write_csv(location_export, "location_export.csv")
 
 # Navigation
 
-This entire slide deck is available here: 
+This entire slide deck is available here: https://joostburgers.github.io/faulkner_demography/index.html
 
 -   You can use the arrow keys to navigate (←) left and right (→) between sections
 -   Press ESC to see all the slides
