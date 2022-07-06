@@ -2,7 +2,7 @@
 title: "Faulkner at 30,000 Feet:"
 author: "Johannes Burgers"
 subtitle: "Characters, Locations and Events in Digital Yoknapatawpha"
-date: "7/120/2022"
+date: "7/12/2022"
 output: 
   revealjs::revealjs_presentation:
     theme: serif
