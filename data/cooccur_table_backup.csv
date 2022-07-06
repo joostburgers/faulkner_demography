@@ -1,0 +1,529 @@
+sp1,sp2,sp1_inc,sp2_inc,obs_cooccur,prob_cooccur,exp_cooccur,p_lt,p_gt,sp1_name,sp2_name
+1,2,999,4365,201,0.066,537.7,0,1,White_Male_Poor White,White_Male_Upper Class
+1,3,999,927,57,0.014,114.2,0,1,White_Male_Poor White,Black_Male_Free
+1,4,999,91,1,0.001,11.2,8e-5,0.99999,White_Male_Poor White,Multiple Ancestries_Female_Free
+1,5,999,1438,73,0.022,177.1,0,1,White_Male_Poor White,White_Female_Upper Class
+1,6,999,2578,402,0.039,317.6,1,0,White_Male_Poor White,White_Male_Lower Class
+1,7,999,868,134,0.013,106.9,0.99834,0.00231,White_Male_Poor White,White_Female_Lower Class
+1,8,999,1624,148,0.025,200,0,1,White_Male_Poor White,White_Male_Middle Class
+1,9,999,125,4,0.002,15.4,3.3e-4,0.99993,White_Male_Poor White,Black_Female_Enslaved
+1,10,999,714,46,0.011,88,0,1,White_Male_Poor White,White_Female_Middle Class
+1,11,999,470,35,0.007,57.9,3.1e-4,0.99984,White_Male_Poor White,Black_Female_Free
+1,12,999,200,145,0.003,24.6,1,0,White_Male_Poor White,White_Female_Poor White
+1,13,999,547,31,0.008,67.4,0,1,White_Male_Poor White,Black_Male_Enslaved
+1,14,999,280,0,0.004,34.5,0,1,White_Male_Poor White,Multiple Ancestries_Male_Lower Class
+1,15,999,87,0,0.001,10.7,1e-5,1,White_Male_Poor White,Native American_Male_Indian Tribal Member
+1,16,999,38,0,0.001,4.7,0.00669,1,White_Male_Poor White,Multiple Ancestries_Female_Upper Class
+1,17,999,159,1,0.002,19.6,0,1,White_Male_Poor White,Multiple Ancestries_Male_Upper Class
+1,18,999,61,0,0.001,7.5,3.2e-4,1,White_Male_Poor White,Multiple Ancestries_Male_Indian_Tribal_Leader
+1,19,999,16,0,0,2,0.1218,1,White_Male_Poor White,Native American_Female_Indian Tribal Member
+1,20,999,144,6,0.002,17.7,6.7e-4,0.99981,White_Male_Poor White,White_Male_Indeterminable
+1,21,999,418,13,0.006,51.5,0,1,White_Male_Poor White,Multiple Ancestries_Male_Free
+1,22,999,1,0,0,0.1,0.87682,1,White_Male_Poor White,Multiple Ancestries_Female_Indeterminable
+1,23,999,38,1,0.001,4.7,0.04258,0.99331,White_Male_Poor White,Multiple Ancestries_Male_Indeterminable
+1,24,999,13,0,0,1.6,0.18082,1,White_Male_Poor White,White_Female_Indeterminable
+1,25,999,59,0,0.001,7.3,4.2e-4,1,White_Male_Poor White,Native American_Male_Indian_Tribal_Leader
+1,26,999,49,1,0.001,6,0.01239,0.99844,White_Male_Poor White,Multiple Ancestries_Male_Enslaved
+1,27,999,1,0,0,0.1,0.87682,1,White_Male_Poor White,Native American_Male_Indeterminable
+1,28,999,149,27,0.002,18.4,0.98594,0.02443,White_Male_Poor White,Multiple Ancestries_Male_Poor White
+1,29,999,30,0,0,3.7,0.01923,1,White_Male_Poor White,Native American_Male_Indian Tribal Leader
+1,30,999,22,0,0,2.7,0.05524,1,White_Male_Poor White,White_Male_MultiClass Group
+1,31,999,70,9,0.001,8.6,0.64084,0.49959,White_Male_Poor White,Multiple Ancestries_Female_Enslaved
+1,32,999,12,6,0,1.5,0.99981,0.00164,White_Male_Poor White,Multiple Ancestries_Female_Poor White
+1,33,999,6,0,0,0.7,0.4543,1,White_Male_Poor White,Native American_Female_Indian Tribal Leader
+2,3,4365,927,584,0.062,498.9,1,0,White_Male_Upper Class,Black_Male_Free
+2,4,4365,91,52,0.006,49,0.77132,0.29772,White_Male_Upper Class,Multiple Ancestries_Female_Free
+2,5,4365,1438,1093,0.095,774,1,0,White_Male_Upper Class,White_Female_Upper Class
+2,6,4365,2578,759,0.171,1387.5,0,1,White_Male_Upper Class,White_Male_Lower Class
+2,7,4365,868,168,0.058,467.2,0,1,White_Male_Upper Class,White_Female_Lower Class
+2,8,4365,1624,554,0.108,874.1,0,1,White_Male_Upper Class,White_Male_Middle Class
+2,9,4365,125,103,0.008,67.3,1,0,White_Male_Upper Class,Black_Female_Enslaved
+2,10,4365,714,264,0.047,384.3,0,1,White_Male_Upper Class,White_Female_Middle Class
+2,11,4365,470,276,0.031,253,0.98775,0.01565,White_Male_Upper Class,Black_Female_Free
+2,12,4365,200,75,0.013,107.6,0,1,White_Male_Upper Class,White_Female_Poor White
+2,13,4365,547,481,0.036,294.4,1,0,White_Male_Upper Class,Black_Male_Enslaved
+2,14,4365,280,108,0.019,150.7,0,1,White_Male_Upper Class,Multiple Ancestries_Male_Lower Class
+2,15,4365,87,3,0.006,46.8,0,1,White_Male_Upper Class,Native American_Male_Indian Tribal Member
+2,16,4365,38,21,0.003,20.5,0.63204,0.4955,White_Male_Upper Class,Multiple Ancestries_Female_Upper Class
+2,17,4365,159,123,0.011,85.6,1,0,White_Male_Upper Class,Multiple Ancestries_Male_Upper Class
+2,18,4365,61,33,0.004,32.8,0.56706,0.53531,White_Male_Upper Class,Multiple Ancestries_Male_Indian_Tribal_Leader
+2,19,4365,16,3,0.001,8.6,0.00454,0.99923,White_Male_Upper Class,Native American_Female_Indian Tribal Member
+2,20,4365,144,92,0.01,77.5,0.99459,0.00874,White_Male_Upper Class,White_Male_Indeterminable
+2,21,4365,418,308,0.028,225,1,0,White_Male_Upper Class,Multiple Ancestries_Male_Free
+2,22,4365,1,0,0,0.5,0.46178,1,White_Male_Upper Class,Multiple Ancestries_Female_Indeterminable
+2,23,4365,38,14,0.003,20.5,0.02609,0.98843,White_Male_Upper Class,Multiple Ancestries_Male_Indeterminable
+2,24,4365,13,7,0.001,7,0.60699,0.61088,White_Male_Upper Class,White_Female_Indeterminable
+2,25,4365,59,16,0.004,31.8,3e-5,0.99999,White_Male_Upper Class,Native American_Male_Indian_Tribal_Leader
+2,26,4365,49,47,0.003,26.4,1,0,White_Male_Upper Class,Multiple Ancestries_Male_Enslaved
+2,27,4365,1,0,0,0.5,0.46178,1,White_Male_Upper Class,Native American_Male_Indeterminable
+2,28,4365,149,131,0.01,80.2,1,0,White_Male_Upper Class,Multiple Ancestries_Male_Poor White
+2,29,4365,30,2,0.002,16.1,0,1,White_Male_Upper Class,Native American_Male_Indian Tribal Leader
+2,30,4365,22,18,0.001,11.8,0.99862,0.00612,White_Male_Upper Class,White_Male_MultiClass Group
+2,31,4365,70,36,0.005,37.7,0.3876,0.70043,White_Male_Upper Class,Multiple Ancestries_Female_Enslaved
+2,32,4365,12,1,0.001,6.5,0.0014,0.99991,White_Male_Upper Class,Multiple Ancestries_Female_Poor White
+2,33,4365,6,2,0,3.2,0.27501,0.92257,White_Male_Upper Class,Native American_Female_Indian Tribal Leader
+3,4,927,91,37,0.001,10.4,1,0,Black_Male_Free,Multiple Ancestries_Female_Free
+3,5,927,1438,174,0.02,164.4,0.82302,0.20137,Black_Male_Free,White_Female_Upper Class
+3,6,927,2578,222,0.036,294.7,0,1,Black_Male_Free,White_Male_Lower Class
+3,7,927,868,31,0.012,99.2,0,1,Black_Male_Free,White_Female_Lower Class
+3,8,927,1624,162,0.023,185.6,0.02072,0.98337,Black_Male_Free,White_Male_Middle Class
+3,9,927,125,3,0.002,14.3,2e-4,0.99997,Black_Male_Free,Black_Female_Enslaved
+3,10,927,714,30,0.01,81.6,0,1,Black_Male_Free,White_Female_Middle Class
+3,11,927,470,191,0.007,53.7,1,0,Black_Male_Free,Black_Female_Free
+3,12,927,200,16,0.003,22.9,0.07131,0.95681,Black_Male_Free,White_Female_Poor White
+3,13,927,547,8,0.008,62.5,0,1,Black_Male_Free,Black_Male_Enslaved
+3,14,927,280,51,0.004,32,0.99976,4.4e-4,Black_Male_Free,Multiple Ancestries_Male_Lower Class
+3,15,927,87,0,0.001,9.9,2e-5,1,Black_Male_Free,Native American_Male_Indian Tribal Member
+3,16,927,38,0,0.001,4.3,0.00982,1,Black_Male_Free,Multiple Ancestries_Female_Upper Class
+3,17,927,159,0,0.002,18.2,0,1,Black_Male_Free,Multiple Ancestries_Male_Upper Class
+3,18,927,61,5,0.001,7,0.28784,0.84185,Black_Male_Free,Multiple Ancestries_Male_Indian_Tribal_Leader
+3,19,927,16,0,0,1.8,0.14313,1,Black_Male_Free,Native American_Female_Indian Tribal Member
+3,20,927,144,14,0.002,16.5,0.31095,0.77917,Black_Male_Free,White_Male_Indeterminable
+3,21,927,418,86,0.006,47.8,1,0,Black_Male_Free,Multiple Ancestries_Male_Free
+3,22,927,1,0,0,0.1,0.8857,1,Black_Male_Free,Multiple Ancestries_Female_Indeterminable
+3,23,927,38,2,0.001,4.3,0.1742,0.94179,Black_Male_Free,Multiple Ancestries_Male_Indeterminable
+3,24,927,13,4,0,1.5,0.98869,0.05217,Black_Male_Free,White_Female_Indeterminable
+3,25,927,59,0,0.001,6.7,7.5e-4,1,Black_Male_Free,Native American_Male_Indian_Tribal_Leader
+3,26,927,49,17,0.001,5.6,1,2e-5,Black_Male_Free,Multiple Ancestries_Male_Enslaved
+3,27,927,1,0,0,0.1,0.8857,1,Black_Male_Free,Native American_Male_Indeterminable
+3,28,927,149,29,0.002,17,0.99869,0.00267,Black_Male_Free,Multiple Ancestries_Male_Poor White
+3,29,927,30,1,0,3.4,0.12724,0.97397,Black_Male_Free,Native American_Male_Indian Tribal Leader
+3,30,927,22,9,0,2.5,0.99994,4e-4,Black_Male_Free,White_Male_MultiClass Group
+3,31,927,70,2,0.001,8,0.01003,0.99801,Black_Male_Free,Multiple Ancestries_Female_Enslaved
+3,32,927,12,1,0,1.4,0.59385,0.76721,Black_Male_Free,Multiple Ancestries_Female_Poor White
+3,33,927,6,0,0,0.7,0.48262,1,Black_Male_Free,Native American_Female_Indian Tribal Leader
+4,5,91,1438,23,0.002,16.1,0.97497,0.04389,Multiple Ancestries_Female_Free,White_Female_Upper Class
+4,6,91,2578,3,0.004,28.9,0,1,Multiple Ancestries_Female_Free,White_Male_Lower Class
+4,7,91,868,0,0.001,9.7,3e-5,1,Multiple Ancestries_Female_Free,White_Female_Lower Class
+4,8,91,1624,3,0.002,18.2,0,1,Multiple Ancestries_Female_Free,White_Male_Middle Class
+4,9,91,125,3,0,1.4,0.9484,0.16515,Multiple Ancestries_Female_Free,Black_Female_Enslaved
+4,10,91,714,1,0.001,8,0.00215,0.99978,Multiple Ancestries_Female_Free,White_Female_Middle Class
+4,11,91,470,14,0.001,5.3,0.99979,6.9e-4,Multiple Ancestries_Female_Free,Black_Female_Free
+4,12,91,200,1,0,2.2,0.33859,0.89824,Multiple Ancestries_Female_Free,White_Female_Poor White
+4,13,91,547,0,0.001,6.1,0.00168,1,Multiple Ancestries_Female_Free,Black_Male_Enslaved
+4,14,91,280,0,0,3.1,0.04013,1,Multiple Ancestries_Female_Free,Multiple Ancestries_Male_Lower Class
+4,15,91,87,0,0,1,0.3727,1,Multiple Ancestries_Female_Free,Native American_Male_Indian Tribal Member
+4,16,91,38,0,0,0.4,0.65065,1,Multiple Ancestries_Female_Free,Multiple Ancestries_Female_Upper Class
+4,17,91,159,0,0,1.8,0.16333,1,Multiple Ancestries_Female_Free,Multiple Ancestries_Male_Upper Class
+4,18,91,61,0,0,0.7,0.50112,1,Multiple Ancestries_Female_Free,Multiple Ancestries_Male_Indian_Tribal_Leader
+4,19,91,16,0,0,0.2,0.83467,1,Multiple Ancestries_Female_Free,Native American_Female_Indian Tribal Member
+4,20,91,144,0,0,1.6,0.19408,1,Multiple Ancestries_Female_Free,White_Male_Indeterminable
+4,21,91,418,35,0.001,4.7,1,0,Multiple Ancestries_Female_Free,Multiple Ancestries_Male_Free
+4,22,91,1,0,0,0,0.98878,1,Multiple Ancestries_Female_Free,Multiple Ancestries_Female_Indeterminable
+4,23,91,38,0,0,0.4,0.65065,1,Multiple Ancestries_Female_Free,Multiple Ancestries_Male_Indeterminable
+4,24,91,13,0,0,0.1,0.86346,1,Multiple Ancestries_Female_Free,White_Female_Indeterminable
+4,25,91,59,0,0,0.7,0.51265,1,Multiple Ancestries_Female_Free,Native American_Male_Indian_Tribal_Leader
+4,26,91,49,2,0,0.5,0.98264,0.10441,Multiple Ancestries_Female_Free,Multiple Ancestries_Male_Enslaved
+4,27,91,1,0,0,0,0.98878,1,Multiple Ancestries_Female_Free,Native American_Male_Indeterminable
+4,28,91,149,0,0,1.7,0.18324,1,Multiple Ancestries_Female_Free,Multiple Ancestries_Male_Poor White
+4,29,91,30,0,0,0.3,0.71239,1,Multiple Ancestries_Female_Free,Native American_Male_Indian Tribal Leader
+4,30,91,22,0,0,0.2,0.77991,1,Multiple Ancestries_Female_Free,White_Male_MultiClass Group
+4,31,91,70,0,0,0.8,0.45235,1,Multiple Ancestries_Female_Free,Multiple Ancestries_Female_Enslaved
+4,32,91,12,0,0,0.1,0.87328,1,Multiple Ancestries_Female_Free,Multiple Ancestries_Female_Poor White
+4,33,91,6,0,0,0.1,0.93452,1,Multiple Ancestries_Female_Free,Native American_Female_Indian Tribal Leader
+5,6,1438,2578,159,0.056,457.1,0,1,White_Female_Upper Class,White_Male_Lower Class
+5,7,1438,868,47,0.019,153.9,0,1,White_Female_Upper Class,White_Female_Lower Class
+5,8,1438,1624,152,0.036,288,0,1,White_Female_Upper Class,White_Male_Middle Class
+5,9,1438,125,71,0.003,22.2,1,0,White_Female_Upper Class,Black_Female_Enslaved
+5,10,1438,714,108,0.016,126.6,0.02996,0.97659,White_Female_Upper Class,White_Female_Middle Class
+5,11,1438,470,135,0.01,83.3,1,0,White_Female_Upper Class,Black_Female_Free
+5,12,1438,200,7,0.004,35.5,0,1,White_Female_Upper Class,White_Female_Poor White
+5,13,1438,547,277,0.012,97,1,0,White_Female_Upper Class,Black_Male_Enslaved
+5,14,1438,280,0,0.006,49.6,0,1,White_Female_Upper Class,Multiple Ancestries_Male_Lower Class
+5,15,1438,87,0,0.002,15.4,0,1,White_Female_Upper Class,Native American_Male_Indian Tribal Member
+5,16,1438,38,0,0.001,6.7,5.9e-4,1,White_Female_Upper Class,Multiple Ancestries_Female_Upper Class
+5,17,1438,159,32,0.003,28.2,0.81798,0.24047,White_Female_Upper Class,Multiple Ancestries_Male_Upper Class
+5,18,1438,61,0,0.001,10.8,1e-5,1,White_Female_Upper Class,Multiple Ancestries_Male_Indian_Tribal_Leader
+5,19,1438,16,0,0,2.8,0.04389,1,White_Female_Upper Class,Native American_Female_Indian Tribal Member
+5,20,1438,144,20,0.003,25.5,0.13251,0.91132,White_Female_Upper Class,White_Male_Indeterminable
+5,21,1438,418,29,0.009,74.1,0,1,White_Female_Upper Class,Multiple Ancestries_Male_Free
+5,22,1438,1,0,0,0.2,0.82269,1,White_Female_Upper Class,Multiple Ancestries_Female_Indeterminable
+5,23,1438,38,16,0.001,6.7,0.9999,3.8e-4,White_Female_Upper Class,Multiple Ancestries_Male_Indeterminable
+5,24,1438,13,3,0,2.3,0.81374,0.41286,White_Female_Upper Class,White_Female_Indeterminable
+5,25,1438,59,1,0.001,10.5,1.3e-4,0.99999,White_Female_Upper Class,Native American_Male_Indian_Tribal_Leader
+5,26,1438,49,1,0.001,8.7,7.9e-4,0.99993,White_Female_Upper Class,Multiple Ancestries_Male_Enslaved
+5,27,1438,1,0,0,0.2,0.82269,1,White_Female_Upper Class,Native American_Male_Indeterminable
+5,28,1438,149,10,0.003,26.4,7e-5,0.99998,White_Female_Upper Class,Multiple Ancestries_Male_Poor White
+5,29,1438,30,0,0.001,5.3,0.00283,1,White_Female_Upper Class,Native American_Male_Indian Tribal Leader
+5,30,1438,22,0,0,3.9,0.01357,1,White_Female_Upper Class,White_Male_MultiClass Group
+5,31,1438,70,37,0.002,12.4,1,0,White_Female_Upper Class,Multiple Ancestries_Female_Enslaved
+5,32,1438,12,0,0,2.1,0.09595,1,White_Female_Upper Class,Multiple Ancestries_Female_Poor White
+5,33,1438,6,0,0,1.1,0.30991,1,White_Female_Upper Class,Native American_Female_Indian Tribal Leader
+6,7,2578,868,571,0.034,275.9,1,0,White_Male_Lower Class,White_Female_Lower Class
+6,8,2578,1624,490,0.064,516.2,0.06219,0.94483,White_Male_Lower Class,White_Male_Middle Class
+6,9,2578,125,5,0.005,39.7,0,1,White_Male_Lower Class,Black_Female_Enslaved
+6,10,2578,714,147,0.028,227,0,1,White_Male_Lower Class,White_Female_Middle Class
+6,11,2578,470,81,0.018,149.4,0,1,White_Male_Lower Class,Black_Female_Free
+6,12,2578,200,78,0.008,63.6,0.98816,0.01728,White_Male_Lower Class,White_Female_Poor White
+6,13,2578,547,36,0.021,173.9,0,1,White_Male_Lower Class,Black_Male_Enslaved
+6,14,2578,280,83,0.011,89,0.23715,0.8017,White_Male_Lower Class,Multiple Ancestries_Male_Lower Class
+6,15,2578,87,19,0.003,27.7,0.02669,0.9854,White_Male_Lower Class,Native American_Male_Indian Tribal Member
+6,16,2578,38,1,0.001,12.1,1e-5,1,White_Male_Lower Class,Multiple Ancestries_Female_Upper Class
+6,17,2578,159,5,0.006,50.5,0,1,White_Male_Lower Class,Multiple Ancestries_Male_Upper Class
+6,18,2578,61,1,0.002,19.4,0,1,White_Male_Lower Class,Multiple Ancestries_Male_Indian_Tribal_Leader
+6,19,2578,16,8,0.001,5.1,0.96295,0.09986,White_Male_Lower Class,Native American_Female_Indian Tribal Member
+6,20,2578,144,45,0.006,45.8,0.48446,0.58705,White_Male_Lower Class,White_Male_Indeterminable
+6,21,2578,418,68,0.016,132.9,0,1,White_Male_Lower Class,Multiple Ancestries_Male_Free
+6,22,2578,1,1,0,0.3,1,0.31788,White_Male_Lower Class,Multiple Ancestries_Female_Indeterminable
+6,23,2578,38,3,0.001,12.1,4.9e-4,0.99992,White_Male_Lower Class,Multiple Ancestries_Male_Indeterminable
+6,24,2578,13,2,0.001,4.1,0.16589,0.95127,White_Male_Lower Class,White_Female_Indeterminable
+6,25,2578,59,30,0.002,18.8,0.99928,0.00174,White_Male_Lower Class,Native American_Male_Indian_Tribal_Leader
+6,26,2578,49,0,0.002,15.6,0,1,White_Male_Lower Class,Multiple Ancestries_Male_Enslaved
+6,27,2578,1,0,0,0.3,0.68212,1,White_Male_Lower Class,Native American_Male_Indeterminable
+6,28,2578,149,53,0.006,47.4,0.8617,0.18041,White_Male_Lower Class,Multiple Ancestries_Male_Poor White
+6,29,2578,30,2,0.001,9.5,0.00112,0.99985,White_Male_Lower Class,Native American_Male_Indian Tribal Leader
+6,30,2578,22,12,0.001,7,0.99258,0.02235,White_Male_Lower Class,White_Male_MultiClass Group
+6,31,2578,70,5,0.003,22.3,0,1,White_Male_Lower Class,Multiple Ancestries_Female_Enslaved
+6,32,2578,12,6,0,3.8,0.94793,0.14806,White_Male_Lower Class,Multiple Ancestries_Female_Poor White
+6,33,2578,6,1,0,1.9,0.38231,0.89935,White_Male_Lower Class,Native American_Female_Indian Tribal Leader
+7,8,868,1624,123,0.021,173.8,0,1,White_Female_Lower Class,White_Male_Middle Class
+7,9,868,125,0,0.002,13.4,0,1,White_Female_Lower Class,Black_Female_Enslaved
+7,10,868,714,67,0.009,76.4,0.12822,0.89726,White_Female_Lower Class,White_Female_Middle Class
+7,11,868,470,67,0.006,50.3,0.99464,0.00799,White_Female_Lower Class,Black_Female_Free
+7,12,868,200,54,0.003,21.4,1,0,White_Female_Lower Class,White_Female_Poor White
+7,13,868,547,1,0.007,58.5,0,1,White_Female_Lower Class,Black_Male_Enslaved
+7,14,868,280,52,0.004,30,0.99998,4e-5,White_Female_Lower Class,Multiple Ancestries_Male_Lower Class
+7,15,868,87,0,0.001,9.3,5e-5,1,White_Female_Lower Class,Native American_Male_Indian Tribal Member
+7,16,868,38,0,0.001,4.1,0.01341,1,White_Female_Lower Class,Multiple Ancestries_Female_Upper Class
+7,17,868,159,0,0.002,17,0,1,White_Female_Lower Class,Multiple Ancestries_Male_Upper Class
+7,18,868,61,0,0.001,6.5,9.8e-4,1,White_Female_Lower Class,Multiple Ancestries_Male_Indian_Tribal_Leader
+7,19,868,16,0,0,1.7,0.16317,1,White_Female_Lower Class,Native American_Female_Indian Tribal Member
+7,20,868,144,10,0.002,15.4,0.08533,0.95328,White_Female_Lower Class,White_Male_Indeterminable
+7,21,868,418,14,0.006,44.7,0,1,White_Female_Lower Class,Multiple Ancestries_Male_Free
+7,22,868,1,0,0,0.1,0.89297,1,White_Female_Lower Class,Multiple Ancestries_Female_Indeterminable
+7,23,868,38,1,0.001,4.1,0.07478,0.98659,White_Female_Lower Class,Multiple Ancestries_Male_Indeterminable
+7,24,868,13,0,0,1.4,0.22929,1,White_Female_Lower Class,White_Female_Indeterminable
+7,25,868,59,0,0.001,6.3,0.00123,1,White_Female_Lower Class,Native American_Male_Indian_Tribal_Leader
+7,26,868,49,0,0.001,5.2,0.00383,1,White_Female_Lower Class,Multiple Ancestries_Male_Enslaved
+7,27,868,1,0,0,0.1,0.89297,1,White_Female_Lower Class,Native American_Male_Indeterminable
+7,28,868,149,29,0.002,15.9,0.99956,9.7e-4,White_Female_Lower Class,Multiple Ancestries_Male_Poor White
+7,29,868,30,0,0,3.2,0.03329,1,White_Female_Lower Class,Native American_Male_Indian Tribal Leader
+7,30,868,22,1,0,2.4,0.30101,0.91741,White_Female_Lower Class,White_Male_MultiClass Group
+7,31,868,70,0,0.001,7.5,3.5e-4,1,White_Female_Lower Class,Multiple Ancestries_Female_Enslaved
+7,32,868,12,3,0,1.3,0.96803,0.12932,White_Female_Lower Class,Multiple Ancestries_Female_Poor White
+7,33,868,6,0,0,0.6,0.50691,1,White_Female_Lower Class,Native American_Female_Indian Tribal Leader
+8,9,1624,125,19,0.003,25,0.1038,0.93336,White_Male_Middle Class,Black_Female_Enslaved
+8,10,1624,714,251,0.018,143,1,0,White_Male_Middle Class,White_Female_Middle Class
+8,11,1624,470,53,0.012,94.1,0,1,White_Male_Middle Class,Black_Female_Free
+8,12,1624,200,13,0.005,40,0,1,White_Male_Middle Class,White_Female_Poor White
+8,13,1624,547,70,0.014,109.5,0,1,White_Male_Middle Class,Black_Male_Enslaved
+8,14,1624,280,19,0.007,56.1,0,1,White_Male_Middle Class,Multiple Ancestries_Male_Lower Class
+8,15,1624,87,4,0.002,17.4,4e-5,0.99999,White_Male_Middle Class,Native American_Male_Indian Tribal Member
+8,16,1624,38,12,0.001,7.6,0.97125,0.06236,White_Male_Middle Class,Multiple Ancestries_Female_Upper Class
+8,17,1624,159,28,0.004,31.8,0.25546,0.80616,White_Male_Middle Class,Multiple Ancestries_Male_Upper Class
+8,18,1624,61,1,0.002,12.2,2e-5,1,White_Male_Middle Class,Multiple Ancestries_Male_Indian_Tribal_Leader
+8,19,1624,16,3,0,3.2,0.59715,0.6493,White_Male_Middle Class,Native American_Female_Indian Tribal Member
+8,20,1624,144,31,0.004,28.8,0.71687,0.35669,White_Male_Middle Class,White_Male_Indeterminable
+8,21,1624,418,10,0.01,83.7,0,1,White_Male_Middle Class,Multiple Ancestries_Male_Free
+8,22,1624,1,0,0,0.2,0.79975,1,White_Male_Middle Class,Multiple Ancestries_Female_Indeterminable
+8,23,1624,38,5,0.001,7.6,0.19872,0.90259,White_Male_Middle Class,Multiple Ancestries_Male_Indeterminable
+8,24,1624,13,5,0,2.6,0.96991,0.09939,White_Male_Middle Class,White_Female_Indeterminable
+8,25,1624,59,7,0.001,11.8,0.07357,0.96577,White_Male_Middle Class,Native American_Male_Indian_Tribal_Leader
+8,26,1624,49,1,0.001,9.8,2.3e-4,0.99998,White_Male_Middle Class,Multiple Ancestries_Male_Enslaved
+8,27,1624,1,0,0,0.2,0.79975,1,White_Male_Middle Class,Native American_Male_Indeterminable
+8,28,1624,149,3,0.004,29.8,0,1,White_Male_Middle Class,Multiple Ancestries_Male_Poor White
+8,29,1624,30,0,0.001,6,0.00121,1,White_Male_Middle Class,Native American_Male_Indian Tribal Leader
+8,30,1624,22,19,0.001,4.4,1,0,White_Male_Middle Class,White_Male_MultiClass Group
+8,31,1624,70,3,0.002,14,1.6e-4,0.99997,White_Male_Middle Class,Multiple Ancestries_Female_Enslaved
+8,32,1624,12,1,0,2.4,0.27397,0.93167,White_Male_Middle Class,Multiple Ancestries_Female_Poor White
+8,33,1624,6,5,0,1.2,0.99994,0.0016,White_Male_Middle Class,Native American_Female_Indian Tribal Leader
+9,10,125,714,1,0.001,11,1.2e-4,0.99999,Black_Female_Enslaved,White_Female_Middle Class
+9,11,125,470,1,0.001,7.2,0.00477,0.99946,Black_Female_Enslaved,Black_Female_Free
+9,12,125,200,0,0,3.1,0.04304,1,Black_Female_Enslaved,White_Female_Poor White
+9,13,125,547,86,0.001,8.4,1,0,Black_Female_Enslaved,Black_Male_Enslaved
+9,14,125,280,0,0.001,4.3,0.01196,1,Black_Female_Enslaved,Multiple Ancestries_Male_Lower Class
+9,15,125,87,5,0,1.3,0.99783,0.01085,Black_Female_Enslaved,Native American_Male_Indian Tribal Member
+9,16,125,38,1,0,0.6,0.88418,0.44657,Black_Female_Enslaved,Multiple Ancestries_Female_Upper Class
+9,17,125,159,0,0,2.5,0.08255,1,Black_Female_Enslaved,Multiple Ancestries_Male_Upper Class
+9,18,125,61,1,0,0.9,0.75803,0.61367,Black_Female_Enslaved,Multiple Ancestries_Male_Indian_Tribal_Leader
+9,19,125,16,0,0,0.2,0.77977,1,Black_Female_Enslaved,Native American_Female_Indian Tribal Member
+9,20,125,144,3,0,2.2,0.81815,0.38345,Black_Female_Enslaved,White_Male_Indeterminable
+9,21,125,418,2,0.001,6.4,0.04005,0.98995,Black_Female_Enslaved,Multiple Ancestries_Male_Free
+9,22,125,1,0,0,0,0.98459,1,Black_Female_Enslaved,Multiple Ancestries_Female_Indeterminable
+9,23,125,38,0,0,0.6,0.55343,1,Black_Female_Enslaved,Multiple Ancestries_Male_Indeterminable
+9,24,125,13,0,0,0.2,0.81703,1,Black_Female_Enslaved,White_Female_Indeterminable
+9,25,125,59,3,0,0.9,0.98725,0.06232,Black_Female_Enslaved,Native American_Male_Indian_Tribal_Leader
+9,26,125,49,7,0,0.8,1,1e-5,Black_Female_Enslaved,Multiple Ancestries_Male_Enslaved
+9,27,125,1,0,0,0,0.98459,1,Black_Female_Enslaved,Native American_Male_Indeterminable
+9,28,125,149,0,0,2.3,0.09672,1,Black_Female_Enslaved,Multiple Ancestries_Male_Poor White
+9,29,125,30,4,0,0.5,0.99992,0.00108,Black_Female_Enslaved,Native American_Male_Indian Tribal Leader
+9,30,125,22,0,0,0.3,0.71022,1,Black_Female_Enslaved,White_Male_MultiClass Group
+9,31,125,70,2,0,1.1,0.90685,0.29356,Black_Female_Enslaved,Multiple Ancestries_Female_Enslaved
+9,32,125,12,0,0,0.2,0.82984,1,Black_Female_Enslaved,Multiple Ancestries_Female_Poor White
+9,33,125,6,2,0,0.1,0.99993,0.00339,Black_Female_Enslaved,Native American_Female_Indian Tribal Leader
+10,11,714,470,39,0.005,41.4,0.38343,0.67972,White_Female_Middle Class,Black_Female_Free
+10,12,714,200,2,0.002,17.6,0,1,White_Female_Middle Class,White_Female_Poor White
+10,13,714,547,5,0.006,48.2,0,1,White_Female_Middle Class,Black_Male_Enslaved
+10,14,714,280,31,0.003,24.7,0.9255,0.10704,White_Female_Middle Class,Multiple Ancestries_Male_Lower Class
+10,15,714,87,0,0.001,7.7,3.2e-4,1,White_Female_Middle Class,Native American_Male_Indian Tribal Member
+10,16,714,38,0,0,3.3,0.02988,1,White_Female_Middle Class,Multiple Ancestries_Female_Upper Class
+10,17,714,159,4,0.002,14,0.00118,0.99971,White_Female_Middle Class,Multiple Ancestries_Male_Upper Class
+10,18,714,61,0,0.001,5.4,0.00354,1,White_Female_Middle Class,Multiple Ancestries_Male_Indian_Tribal_Leader
+10,19,714,16,0,0,1.4,0.22856,1,White_Female_Middle Class,Native American_Female_Indian Tribal Member
+10,20,714,144,14,0.002,12.7,0.71513,0.3894,White_Female_Middle Class,White_Male_Indeterminable
+10,21,714,418,7,0.005,36.8,0,1,White_Female_Middle Class,Multiple Ancestries_Male_Free
+10,22,714,1,0,0,0.1,0.91196,1,White_Female_Middle Class,Multiple Ancestries_Female_Indeterminable
+10,23,714,38,0,0,3.3,0.02988,1,White_Female_Middle Class,Multiple Ancestries_Male_Indeterminable
+10,24,714,13,4,0,1.1,0.99631,0.02236,White_Female_Middle Class,White_Female_Indeterminable
+10,25,714,59,0,0.001,5.2,0.00426,1,White_Female_Middle Class,Native American_Male_Indian_Tribal_Leader
+10,26,714,49,0,0.001,4.3,0.01078,1,White_Female_Middle Class,Multiple Ancestries_Male_Enslaved
+10,27,714,1,0,0,0.1,0.91196,1,White_Female_Middle Class,Native American_Male_Indeterminable
+10,28,714,149,1,0.002,13.1,1e-5,1,White_Female_Middle Class,Multiple Ancestries_Male_Poor White
+10,29,714,30,0,0,2.6,0.06267,1,White_Female_Middle Class,Native American_Male_Indian Tribal Leader
+10,30,714,22,1,0,1.9,0.41097,0.8687,White_Female_Middle Class,White_Male_MultiClass Group
+10,31,714,70,22,0.001,6.2,1,0,White_Female_Middle Class,Multiple Ancestries_Female_Enslaved
+10,32,714,12,0,0,1.1,0.33065,1,White_Female_Middle Class,Multiple Ancestries_Female_Poor White
+10,33,714,6,0,0,0.5,0.57515,1,White_Female_Middle Class,Native American_Female_Indian Tribal Leader
+11,12,470,200,30,0.001,11.6,1,0,Black_Female_Free,White_Female_Poor White
+11,13,470,547,4,0.004,31.7,0,1,Black_Female_Free,Black_Male_Enslaved
+11,14,470,280,5,0.002,16.2,7.9e-4,0.99979,Black_Female_Free,Multiple Ancestries_Male_Lower Class
+11,15,470,87,0,0.001,5,0.00539,1,Black_Female_Free,Native American_Male_Indian Tribal Member
+11,16,470,38,0,0,2.2,0.1029,1,Black_Female_Free,Multiple Ancestries_Female_Upper Class
+11,17,470,159,0,0.001,9.2,7e-5,1,Black_Female_Free,Multiple Ancestries_Male_Upper Class
+11,18,470,61,0,0,3.5,0.02584,1,Black_Female_Free,Multiple Ancestries_Male_Indian_Tribal_Leader
+11,19,470,16,0,0,0.9,0.38438,1,Black_Female_Free,Native American_Female_Indian Tribal Member
+11,20,470,144,2,0.001,8.3,0.0086,0.99829,Black_Female_Free,White_Male_Indeterminable
+11,21,470,418,55,0.003,24.2,1,0,Black_Female_Free,Multiple Ancestries_Male_Free
+11,22,470,1,0,0,0.1,0.94205,1,Black_Female_Free,Multiple Ancestries_Female_Indeterminable
+11,23,470,38,13,0,2.2,1,0,Black_Female_Free,Multiple Ancestries_Male_Indeterminable
+11,24,470,13,0,0,0.8,0.45992,1,Black_Female_Free,White_Female_Indeterminable
+11,25,470,59,0,0,3.4,0.02915,1,Black_Female_Free,Native American_Male_Indian_Tribal_Leader
+11,26,470,49,0,0,2.8,0.05317,1,Black_Female_Free,Multiple Ancestries_Male_Enslaved
+11,27,470,1,0,0,0.1,0.94205,1,Black_Female_Free,Native American_Male_Indeterminable
+11,28,470,149,40,0.001,8.6,1,0,Black_Female_Free,Multiple Ancestries_Male_Poor White
+11,29,470,30,0,0,1.7,0.16624,1,Black_Female_Free,Native American_Male_Indian Tribal Leader
+11,30,470,22,0,0,1.3,0.26843,1,Black_Female_Free,White_Male_MultiClass Group
+11,31,470,70,4,0.001,4.1,0.61748,0.58448,Black_Female_Free,Multiple Ancestries_Female_Enslaved
+11,32,470,12,0,0,0.7,0.48826,1,Black_Female_Free,Multiple Ancestries_Female_Poor White
+11,33,470,6,0,0,0.3,0.69885,1,Black_Female_Free,Native American_Female_Indian Tribal Leader
+12,13,200,547,3,0.002,13.5,4.7e-4,0.99991,White_Female_Poor White,Black_Male_Enslaved
+12,14,200,280,0,0.001,6.9,8.1e-4,1,White_Female_Poor White,Multiple Ancestries_Male_Lower Class
+12,15,200,87,0,0,2.1,0.11257,1,White_Female_Poor White,Native American_Male_Indian Tribal Member
+12,16,200,38,0,0,0.9,0.38633,1,White_Female_Poor White,Multiple Ancestries_Female_Upper Class
+12,17,200,159,1,0,3.9,0.09253,0.98187,White_Female_Poor White,Multiple Ancestries_Male_Upper Class
+12,18,200,61,0,0,1.5,0.21677,1,White_Female_Poor White,Multiple Ancestries_Male_Indian_Tribal_Leader
+12,19,200,16,0,0,0.4,0.67039,1,White_Female_Poor White,Native American_Female_Indian Tribal Member
+12,20,200,144,1,0,3.6,0.12507,0.97344,White_Female_Poor White,White_Male_Indeterminable
+12,21,200,418,19,0.001,10.3,0.99668,0.00721,White_Female_Poor White,Multiple Ancestries_Male_Free
+12,22,200,1,0,0,0,0.97534,1,White_Female_Poor White,Multiple Ancestries_Female_Indeterminable
+12,23,200,38,0,0,0.9,0.38633,1,White_Female_Poor White,Multiple Ancestries_Male_Indeterminable
+12,24,200,13,0,0,0.3,0.72263,1,White_Female_Poor White,White_Female_Indeterminable
+12,25,200,59,0,0,1.5,0.22796,1,White_Female_Poor White,Native American_Male_Indian_Tribal_Leader
+12,26,200,49,0,0,1.2,0.29311,1,White_Female_Poor White,Multiple Ancestries_Male_Enslaved
+12,27,200,1,0,0,0,0.97534,1,White_Female_Poor White,Native American_Male_Indeterminable
+12,28,200,149,45,0,3.7,1,0,White_Female_Poor White,Multiple Ancestries_Male_Poor White
+12,29,200,30,0,0,0.7,0.47215,1,White_Female_Poor White,Native American_Male_Indian Tribal Leader
+12,30,200,22,0,0,0.5,0.57691,1,White_Female_Poor White,White_Male_MultiClass Group
+12,31,200,70,2,0,1.7,0.75155,0.5186,White_Female_Poor White,Multiple Ancestries_Female_Enslaved
+12,32,200,12,1,0,0.3,0.96605,0.25907,White_Female_Poor White,Multiple Ancestries_Female_Poor White
+12,33,200,6,0,0,0.1,0.86082,1,White_Female_Poor White,Native American_Female_Indian Tribal Leader
+13,14,547,280,0,0.002,18.9,0,1,Black_Male_Enslaved,Multiple Ancestries_Male_Lower Class
+13,15,547,87,25,0.001,5.9,1,0,Black_Male_Enslaved,Native American_Male_Indian Tribal Member
+13,16,547,38,1,0,2.6,0.26318,0.93004,Black_Male_Enslaved,Multiple Ancestries_Female_Upper Class
+13,17,547,159,6,0.001,10.7,0.08111,0.96217,Black_Male_Enslaved,Multiple Ancestries_Male_Upper Class
+13,18,547,61,8,0.001,4.1,0.97981,0.051090000000000003,Black_Male_Enslaved,Multiple Ancestries_Male_Indian_Tribal_Leader
+13,19,547,16,1,0,1.1,0.70577,0.67318,Black_Male_Enslaved,Native American_Female_Indian Tribal Member
+13,20,547,144,23,0.001,9.7,0.99997,9e-5,Black_Male_Enslaved,White_Male_Indeterminable
+13,21,547,418,1,0.003,28.2,0,1,Black_Male_Enslaved,Multiple Ancestries_Male_Free
+13,22,547,1,0,0,0.1,0.93255,1,Black_Male_Enslaved,Multiple Ancestries_Female_Indeterminable
+13,23,547,38,1,0,2.6,0.26318,0.93004,Black_Male_Enslaved,Multiple Ancestries_Male_Indeterminable
+13,24,547,13,2,0,0.9,0.94746,0.21722,Black_Male_Enslaved,White_Female_Indeterminable
+13,25,547,59,2,0,4,0.22991,0.91521,Black_Male_Enslaved,Native American_Male_Indian_Tribal_Leader
+13,26,547,49,5,0,3.3,0.89016,0.23329,Black_Male_Enslaved,Multiple Ancestries_Male_Enslaved
+13,27,547,1,0,0,0.1,0.93255,1,Black_Male_Enslaved,Native American_Male_Indeterminable
+13,28,547,149,0,0.001,10,3e-5,1,Black_Male_Enslaved,Multiple Ancestries_Male_Poor White
+13,29,547,30,6,0,2,0.99682,0.01353,Black_Male_Enslaved,Native American_Male_Indian Tribal Leader
+13,30,547,22,2,0,1.5,0.8178,0.44262,Black_Male_Enslaved,White_Male_MultiClass Group
+13,31,547,70,3,0.001,4.7,0.29581,0.86025,Black_Male_Enslaved,Multiple Ancestries_Female_Enslaved
+13,32,547,12,0,0,0.8,0.43234,1,Black_Male_Enslaved,Multiple Ancestries_Female_Poor White
+13,33,547,6,2,0,0.4,0.99477,0.0568,Black_Male_Enslaved,Native American_Female_Indian Tribal Leader
+14,15,280,87,0,0,3,0.04626,1,Multiple Ancestries_Male_Lower Class,Native American_Male_Indian Tribal Member
+14,16,280,38,0,0,1.3,0.2623,1,Multiple Ancestries_Male_Lower Class,Multiple Ancestries_Female_Upper Class
+14,17,280,159,1,0.001,5.5,0.02411,0.99646,Multiple Ancestries_Male_Lower Class,Multiple Ancestries_Male_Upper Class
+14,18,280,61,8,0,2.1,0.99978,0.0011,Multiple Ancestries_Male_Lower Class,Multiple Ancestries_Male_Indian_Tribal_Leader
+14,19,280,16,1,0,0.6,0.89624,0.43033,Multiple Ancestries_Male_Lower Class,Native American_Female_Indian Tribal Member
+14,20,280,144,2,0.001,5,0.1204,0.96213,Multiple Ancestries_Male_Lower Class,White_Male_Indeterminable
+14,21,280,418,30,0.002,14.4,0.99996,1e-4,Multiple Ancestries_Male_Lower Class,Multiple Ancestries_Male_Free
+14,22,280,1,0,0,0,0.96547,1,Multiple Ancestries_Male_Lower Class,Multiple Ancestries_Female_Indeterminable
+14,23,280,38,0,0,1.3,0.2623,1,Multiple Ancestries_Male_Lower Class,Multiple Ancestries_Male_Indeterminable
+14,24,280,13,1,0,0.4,0.92789,0.36689,Multiple Ancestries_Male_Lower Class,White_Female_Indeterminable
+14,25,280,59,2,0,2,0.66651,0.60974,Multiple Ancestries_Male_Lower Class,Native American_Male_Indian_Tribal_Leader
+14,26,280,49,23,0,1.7,1,0,Multiple Ancestries_Male_Lower Class,Multiple Ancestries_Male_Enslaved
+14,27,280,1,0,0,0,0.96547,1,Multiple Ancestries_Male_Lower Class,Native American_Male_Indeterminable
+14,28,280,149,0,0.001,5.1,0.00507,1,Multiple Ancestries_Male_Lower Class,Multiple Ancestries_Male_Poor White
+14,29,280,30,1,0,1,0.72241,0.65215,Multiple Ancestries_Male_Lower Class,Native American_Male_Indian Tribal Leader
+14,30,280,22,0,0,0.8,0.46117,1,Multiple Ancestries_Male_Lower Class,White_Male_MultiClass Group
+14,31,280,70,0,0,2.4,0.08457,1,Multiple Ancestries_Male_Lower Class,Multiple Ancestries_Female_Enslaved
+14,32,280,12,0,0,0.4,0.65579,1,Multiple Ancestries_Male_Lower Class,Multiple Ancestries_Female_Poor White
+14,33,280,6,0,0,0.2,0.80987,1,Multiple Ancestries_Male_Lower Class,Native American_Female_Indian Tribal Leader
+15,16,87,38,0,0,0.4,0.66313,1,Native American_Male_Indian Tribal Member,Multiple Ancestries_Female_Upper Class
+15,17,87,159,0,0,1.7,0.17695,1,Native American_Male_Indian Tribal Member,Multiple Ancestries_Male_Upper Class
+15,18,87,61,14,0,0.7,1,0,Native American_Male_Indian Tribal Member,Multiple Ancestries_Male_Indian_Tribal_Leader
+15,19,87,16,10,0,0.2,1,0,Native American_Male_Indian Tribal Member,Native American_Female_Indian Tribal Member
+15,20,87,144,0,0,1.5,0.20866,1,Native American_Male_Indian Tribal Member,White_Male_Indeterminable
+15,21,87,418,2,0.001,4.5,0.16649,0.94355,Native American_Male_Indian Tribal Member,Multiple Ancestries_Male_Free
+15,22,87,1,0,0,0,0.98927,1,Native American_Male_Indian Tribal Member,Multiple Ancestries_Female_Indeterminable
+15,23,87,38,0,0,0.4,0.66313,1,Native American_Male_Indian Tribal Member,Multiple Ancestries_Male_Indeterminable
+15,24,87,13,0,0,0.1,0.86908,1,Native American_Male_Indian Tribal Member,White_Female_Indeterminable
+15,25,87,59,21,0,0.6,1,0,Native American_Male_Indian Tribal Member,Native American_Male_Indian_Tribal_Leader
+15,26,87,49,0,0,0.5,0.58857,1,Native American_Male_Indian Tribal Member,Multiple Ancestries_Male_Enslaved
+15,27,87,1,0,0,0,0.98927,1,Native American_Male_Indian Tribal Member,Native American_Male_Indeterminable
+15,28,87,149,0,0,1.6,0.19751,1,Native American_Male_Indian Tribal Member,Multiple Ancestries_Male_Poor White
+15,29,87,30,24,0,0.3,1,0,Native American_Male_Indian Tribal Member,Native American_Male_Indian Tribal Leader
+15,30,87,22,0,0,0.2,0.78853,1,Native American_Male_Indian Tribal Member,White_Male_MultiClass Group
+15,31,87,70,0,0,0.8,0.4685,1,Native American_Male_Indian Tribal Member,Multiple Ancestries_Female_Enslaved
+15,32,87,12,0,0,0.1,0.87852,1,Native American_Male_Indian Tribal Member,Multiple Ancestries_Female_Poor White
+15,33,87,6,0,0,0.1,0.93732,1,Native American_Male_Indian Tribal Member,Native American_Female_Indian Tribal Leader
+16,17,38,159,22,0,0.7,1,0,Multiple Ancestries_Female_Upper Class,Multiple Ancestries_Male_Upper Class
+16,18,38,61,1,0,0.3,0.96711,0.24991,Multiple Ancestries_Female_Upper Class,Multiple Ancestries_Male_Indian_Tribal_Leader
+16,19,38,16,0,0,0.1,0.92754,1,Multiple Ancestries_Female_Upper Class,Native American_Female_Indian Tribal Member
+16,20,38,144,0,0,0.7,0.50542,1,Multiple Ancestries_Female_Upper Class,White_Male_Indeterminable
+16,21,38,418,0,0,2,0.13324,1,Multiple Ancestries_Female_Upper Class,Multiple Ancestries_Male_Free
+16,22,38,1,0,0,0,0.99531,1,Multiple Ancestries_Female_Upper Class,Multiple Ancestries_Female_Indeterminable
+16,23,38,38,0,0,0.2,0.83621,1,Multiple Ancestries_Female_Upper Class,Multiple Ancestries_Male_Indeterminable
+16,24,38,13,0,0,0.1,0.94073,1,Multiple Ancestries_Female_Upper Class,White_Female_Indeterminable
+16,25,38,59,0,0,0.3,0.75722,1,Multiple Ancestries_Female_Upper Class,Native American_Male_Indian_Tribal_Leader
+16,26,38,49,0,0,0.2,0.79388,1,Multiple Ancestries_Female_Upper Class,Multiple Ancestries_Male_Enslaved
+16,27,38,1,0,0,0,0.99531,1,Multiple Ancestries_Female_Upper Class,Native American_Male_Indeterminable
+16,28,38,149,0,0,0.7,0.49348,1,Multiple Ancestries_Female_Upper Class,Multiple Ancestries_Male_Poor White
+16,29,38,30,0,0,0.1,0.86836,1,Multiple Ancestries_Female_Upper Class,Native American_Male_Indian Tribal Leader
+16,30,38,22,0,0,0.1,0.90171,1,Multiple Ancestries_Female_Upper Class,White_Male_MultiClass Group
+16,31,38,70,2,0,0.3,0.99581,0.04229,Multiple Ancestries_Female_Upper Class,Multiple Ancestries_Female_Enslaved
+16,32,38,12,0,0,0.1,0.94516,1,Multiple Ancestries_Female_Upper Class,Multiple Ancestries_Female_Poor White
+16,33,38,6,0,0,0,0.97221,1,Multiple Ancestries_Female_Upper Class,Native American_Female_Indian Tribal Leader
+17,18,159,61,1,0,1.2,0.66316,0.7025,Multiple Ancestries_Male_Upper Class,Multiple Ancestries_Male_Indian_Tribal_Leader
+17,19,159,16,0,0,0.3,0.72826,1,Multiple Ancestries_Male_Upper Class,Native American_Female_Indian Tribal Member
+17,20,159,144,9,0,2.8,0.99949,0.00203,Multiple Ancestries_Male_Upper Class,White_Male_Indeterminable
+17,21,159,418,0,0.001,8.2,2e-4,1,Multiple Ancestries_Male_Upper Class,Multiple Ancestries_Male_Free
+17,22,159,1,0,0,0,0.98039,1,Multiple Ancestries_Male_Upper Class,Multiple Ancestries_Female_Indeterminable
+17,23,159,38,3,0,0.7,0.99375,0.03782,Multiple Ancestries_Male_Upper Class,Multiple Ancestries_Male_Indeterminable
+17,24,159,13,0,0,0.3,0.77291,1,Multiple Ancestries_Male_Upper Class,White_Female_Indeterminable
+17,25,159,59,0,0,1.2,0.30961,1,Multiple Ancestries_Male_Upper Class,Native American_Male_Indian_Tribal_Leader
+17,26,159,49,0,0,1,0.3779,1,Multiple Ancestries_Male_Upper Class,Multiple Ancestries_Male_Enslaved
+17,27,159,1,0,0,0,0.98039,1,Multiple Ancestries_Male_Upper Class,Native American_Male_Indeterminable
+17,28,159,149,0,0,2.9,0.05091,1,Multiple Ancestries_Male_Upper Class,Multiple Ancestries_Male_Poor White
+17,29,159,30,0,0,0.6,0.55152,1,Multiple Ancestries_Male_Upper Class,Native American_Male_Indian Tribal Leader
+17,30,159,22,0,0,0.4,0.64651,1,Multiple Ancestries_Male_Upper Class,White_Male_MultiClass Group
+17,31,159,70,10,0,1.4,1,0,Multiple Ancestries_Male_Upper Class,Multiple Ancestries_Female_Enslaved
+17,32,159,12,0,0,0.2,0.78839,1,Multiple Ancestries_Male_Upper Class,Multiple Ancestries_Female_Poor White
+17,33,159,6,0,0,0.1,0.88795,1,Multiple Ancestries_Male_Upper Class,Native American_Female_Indian Tribal Leader
+18,19,61,16,2,0,0.1,0.99979,0.00624,Multiple Ancestries_Male_Indian_Tribal_Leader,Native American_Female_Indian Tribal Member
+18,20,61,144,0,0,1.1,0.33389,1,Multiple Ancestries_Male_Indian_Tribal_Leader,White_Male_Indeterminable
+18,21,61,418,0,0,3.1,0.03915,1,Multiple Ancestries_Male_Indian_Tribal_Leader,Multiple Ancestries_Male_Free
+18,22,61,1,0,0,0,0.99248,1,Multiple Ancestries_Male_Indian_Tribal_Leader,Multiple Ancestries_Female_Indeterminable
+18,23,61,38,0,0,0.3,0.75009,1,Multiple Ancestries_Male_Indian_Tribal_Leader,Multiple Ancestries_Male_Indeterminable
+18,24,61,13,0,0,0.1,0.90645,1,Multiple Ancestries_Male_Indian_Tribal_Leader,White_Female_Indeterminable
+18,25,61,59,0,0,0.4,0.63951,1,Multiple Ancestries_Male_Indian_Tribal_Leader,Native American_Male_Indian_Tribal_Leader
+18,26,61,49,0,0,0.4,0.69001,1,Multiple Ancestries_Male_Indian_Tribal_Leader,Multiple Ancestries_Male_Enslaved
+18,27,61,1,0,0,0,0.99248,1,Multiple Ancestries_Male_Indian_Tribal_Leader,Native American_Male_Indeterminable
+18,28,61,149,0,0,1.1,0.3213,1,Multiple Ancestries_Male_Indian_Tribal_Leader,Multiple Ancestries_Male_Poor White
+18,29,61,30,0,0,0.2,0.79699,1,Multiple Ancestries_Male_Indian_Tribal_Leader,Native American_Male_Indian Tribal Leader
+18,30,61,22,0,0,0.2,0.84678,1,Multiple Ancestries_Male_Indian_Tribal_Leader,White_Male_MultiClass Group
+18,31,61,70,0,0,0.5,0.58815,1,Multiple Ancestries_Male_Indian_Tribal_Leader,Multiple Ancestries_Female_Enslaved
+18,32,61,12,0,0,0.1,0.91333,1,Multiple Ancestries_Male_Indian_Tribal_Leader,Multiple Ancestries_Female_Poor White
+18,33,61,6,0,0,0,0.9557,1,Multiple Ancestries_Male_Indian_Tribal_Leader,Native American_Female_Indian Tribal Leader
+19,20,16,144,1,0,0.3,0.96807,0.24942,Native American_Female_Indian Tribal Member,White_Male_Indeterminable
+19,21,16,418,0,0,0.8,0.42849,1,Native American_Female_Indian Tribal Member,Multiple Ancestries_Male_Free
+19,22,16,1,0,0,0,0.99803,1,Native American_Female_Indian Tribal Member,Multiple Ancestries_Female_Indeterminable
+19,23,16,38,0,0,0.1,0.92754,1,Native American_Female_Indian Tribal Member,Multiple Ancestries_Male_Indeterminable
+19,24,16,13,0,0,0,0.97464,1,Native American_Female_Indian Tribal Member,White_Female_Indeterminable
+19,25,16,59,11,0,0.1,1,0,Native American_Female_Indian Tribal Member,Native American_Male_Indian_Tribal_Leader
+19,26,16,49,0,0,0.1,0.90751,1,Native American_Female_Indian Tribal Member,Multiple Ancestries_Male_Enslaved
+19,27,16,1,0,0,0,0.99803,1,Native American_Female_Indian Tribal Member,Native American_Male_Indeterminable
+19,28,16,149,1,0,0.3,0.96601,0.25693,Native American_Female_Indian Tribal Member,Multiple Ancestries_Male_Poor White
+19,29,16,30,2,0,0.1,0.99998,0.00154,Native American_Female_Indian Tribal Member,Native American_Male_Indian Tribal Leader
+19,30,16,22,0,0,0,0.95743,1,Native American_Female_Indian Tribal Member,White_Male_MultiClass Group
+19,31,16,70,0,0,0.1,0.87038,1,Native American_Female_Indian Tribal Member,Multiple Ancestries_Female_Enslaved
+19,32,16,12,1,0,0,0.99976,0.02343,Native American_Female_Indian Tribal Member,Multiple Ancestries_Female_Poor White
+19,33,16,6,0,0,0,0.98822,1,Native American_Female_Indian Tribal Member,Native American_Female_Indian Tribal Leader
+20,21,144,418,0,0.001,7.4,4.6e-4,1,White_Male_Indeterminable,Multiple Ancestries_Male_Free
+20,22,144,1,0,0,0,0.98224,1,White_Male_Indeterminable,Multiple Ancestries_Female_Indeterminable
+20,23,144,38,0,0,0.7,0.50542,1,White_Male_Indeterminable,Multiple Ancestries_Male_Indeterminable
+20,24,144,13,0,0,0.2,0.79209,1,White_Male_Indeterminable,White_Female_Indeterminable
+20,25,144,59,1,0,1,0.71807,0.65384,White_Male_Indeterminable,Native American_Male_Indian_Tribal_Leader
+20,26,144,49,0,0,0.9,0.41458,1,White_Male_Indeterminable,Multiple Ancestries_Male_Enslaved
+20,27,144,1,0,0,0,0.98224,1,White_Male_Indeterminable,Native American_Male_Indeterminable
+20,28,144,149,2,0,2.6,0.50414,0.74691,White_Male_Indeterminable,Multiple Ancestries_Male_Poor White
+20,29,144,30,1,0,0.5,0.90134,0.41634,White_Male_Indeterminable,Native American_Male_Indian Tribal Leader
+20,30,144,22,1,0,0.4,0.94263,0.32609,White_Male_Indeterminable,White_Male_MultiClass Group
+20,31,144,70,0,0,1.2,0.2838,1,White_Male_Indeterminable,Multiple Ancestries_Female_Enslaved
+20,32,144,12,1,0,0.2,0.98161,0.19356,White_Male_Indeterminable,Multiple Ancestries_Female_Poor White
+20,33,144,6,0,0,0.1,0.89805,1,White_Male_Indeterminable,Native American_Female_Indian Tribal Leader
+21,22,418,1,0,0,0.1,0.94846,1,Multiple Ancestries_Male_Free,Multiple Ancestries_Female_Indeterminable
+21,23,418,38,3,0,2,0.86994,0.31169,Multiple Ancestries_Male_Free,Multiple Ancestries_Male_Indeterminable
+21,24,418,13,0,0,0.7,0.50236,1,Multiple Ancestries_Male_Free,White_Female_Indeterminable
+21,25,418,59,1,0,3,0.18428,0.95644,Multiple Ancestries_Male_Free,Native American_Male_Indian_Tribal_Leader
+21,26,418,49,22,0,2.5,1,0,Multiple Ancestries_Male_Free,Multiple Ancestries_Male_Enslaved
+21,27,418,1,0,0,0.1,0.94846,1,Multiple Ancestries_Male_Free,Native American_Male_Indeterminable
+21,28,418,149,50,0.001,7.7,1,0,Multiple Ancestries_Male_Free,Multiple Ancestries_Male_Poor White
+21,29,418,30,1,0,1.5,0.5374,0.79616,Multiple Ancestries_Male_Free,Native American_Male_Indian Tribal Leader
+21,30,418,22,0,0,1.1,0.3117,1,Multiple Ancestries_Male_Free,White_Male_MultiClass Group
+21,31,418,70,8,0,3.6,0.99063,0.02678,Multiple Ancestries_Male_Free,Multiple Ancestries_Female_Enslaved
+21,32,418,12,0,0,0.6,0.5297,1,Multiple Ancestries_Male_Free,Multiple Ancestries_Female_Poor White
+21,33,418,6,0,0,0.3,0.72789,1,Multiple Ancestries_Male_Free,Native American_Female_Indian Tribal Leader
+22,23,1,38,0,0,0,0.99531,1,Multiple Ancestries_Female_Indeterminable,Multiple Ancestries_Male_Indeterminable
+22,24,1,13,0,0,0,0.9984,1,Multiple Ancestries_Female_Indeterminable,White_Female_Indeterminable
+22,25,1,59,0,0,0,0.99273,1,Multiple Ancestries_Female_Indeterminable,Native American_Male_Indian_Tribal_Leader
+22,26,1,49,0,0,0,0.99396,1,Multiple Ancestries_Female_Indeterminable,Multiple Ancestries_Male_Enslaved
+22,27,1,1,0,0,0,0.99988,1,Multiple Ancestries_Female_Indeterminable,Native American_Male_Indeterminable
+22,28,1,149,0,0,0,0.98163,1,Multiple Ancestries_Female_Indeterminable,Multiple Ancestries_Male_Poor White
+22,29,1,30,0,0,0,0.9963,1,Multiple Ancestries_Female_Indeterminable,Native American_Male_Indian Tribal Leader
+22,30,1,22,0,0,0,0.99729,1,Multiple Ancestries_Female_Indeterminable,White_Male_MultiClass Group
+22,31,1,70,0,0,0,0.99137,1,Multiple Ancestries_Female_Indeterminable,Multiple Ancestries_Female_Enslaved
+22,32,1,12,0,0,0,0.99852,1,Multiple Ancestries_Female_Indeterminable,Multiple Ancestries_Female_Poor White
+22,33,1,6,0,0,0,0.99926,1,Multiple Ancestries_Female_Indeterminable,Native American_Female_Indian Tribal Leader
+23,24,38,13,0,0,0.1,0.94073,1,Multiple Ancestries_Male_Indeterminable,White_Female_Indeterminable
+23,25,38,59,0,0,0.3,0.75722,1,Multiple Ancestries_Male_Indeterminable,Native American_Male_Indian_Tribal_Leader
+23,26,38,49,0,0,0.2,0.79388,1,Multiple Ancestries_Male_Indeterminable,Multiple Ancestries_Male_Enslaved
+23,27,38,1,0,0,0,0.99531,1,Multiple Ancestries_Male_Indeterminable,Native American_Male_Indeterminable
+23,28,38,149,0,0,0.7,0.49348,1,Multiple Ancestries_Male_Indeterminable,Multiple Ancestries_Male_Poor White
+23,29,38,30,0,0,0.1,0.86836,1,Multiple Ancestries_Male_Indeterminable,Native American_Male_Indian Tribal Leader
+23,30,38,22,0,0,0.1,0.90171,1,Multiple Ancestries_Male_Indeterminable,White_Male_MultiClass Group
+23,31,38,70,19,0,0.3,1,0,Multiple Ancestries_Male_Indeterminable,Multiple Ancestries_Female_Enslaved
+23,32,38,12,0,0,0.1,0.94516,1,Multiple Ancestries_Male_Indeterminable,Multiple Ancestries_Female_Poor White
+23,33,38,6,0,0,0,0.97221,1,Multiple Ancestries_Male_Indeterminable,Native American_Female_Indian Tribal Leader
+24,25,13,59,0,0,0.1,0.90938,1,White_Female_Indeterminable,Native American_Male_Indian_Tribal_Leader
+24,26,13,49,0,0,0.1,0.92419,1,White_Female_Indeterminable,Multiple Ancestries_Male_Enslaved
+24,27,13,1,0,0,0,0.9984,1,White_Female_Indeterminable,Native American_Male_Indeterminable
+24,28,13,149,0,0,0.2,0.78565,1,White_Female_Indeterminable,Multiple Ancestries_Male_Poor White
+24,29,13,30,0,0,0,0.95293,1,White_Female_Indeterminable,Native American_Male_Indian Tribal Leader
+24,30,13,22,0,0,0,0.96528,1,White_Female_Indeterminable,White_Male_MultiClass Group
+24,31,13,70,0,0,0.1,0.89335,1,White_Female_Indeterminable,Multiple Ancestries_Female_Enslaved
+24,32,13,12,0,0,0,0.98092,1,White_Female_Indeterminable,Multiple Ancestries_Female_Poor White
+24,33,13,6,0,0,0,0.99042,1,White_Female_Indeterminable,Native American_Female_Indian Tribal Leader
+25,26,59,49,2,0,0.4,0.99469,0.0492,Native American_Male_Indian_Tribal_Leader,Multiple Ancestries_Male_Enslaved
+25,27,59,1,0,0,0,0.99273,1,Native American_Male_Indian_Tribal_Leader,Native American_Male_Indeterminable
+25,28,59,149,0,0,1.1,0.33353,1,Native American_Male_Indian_Tribal_Leader,Multiple Ancestries_Male_Poor White
+25,29,59,30,6,0,0.2,1,0,Native American_Male_Indian_Tribal_Leader,Native American_Male_Indian Tribal Leader
+25,30,59,22,0,0,0.2,0.85143,1,Native American_Male_Indian_Tribal_Leader,White_Male_MultiClass Group
+25,31,59,70,1,0,0.5,0.90819,0.40149,Native American_Male_Indian_Tribal_Leader,Multiple Ancestries_Female_Enslaved
+25,32,59,12,0,0,0.1,0.91606,1,Native American_Male_Indian_Tribal_Leader,Multiple Ancestries_Female_Poor White
+25,33,59,6,2,0,0,0.99999,7.7e-4,Native American_Male_Indian_Tribal_Leader,Native American_Female_Indian Tribal Leader
+26,27,49,1,0,0,0,0.99396,1,Multiple Ancestries_Male_Enslaved,Native American_Male_Indeterminable
+26,28,49,149,0,0,0.9,0.40198,1,Multiple Ancestries_Male_Enslaved,Multiple Ancestries_Male_Poor White
+26,29,49,30,0,0,0.2,0.83349,1,Multiple Ancestries_Male_Enslaved,Native American_Male_Indian Tribal Leader
+26,30,49,22,0,0,0.1,0.87503,1,Multiple Ancestries_Male_Enslaved,White_Male_MultiClass Group
+26,31,49,70,2,0,0.4,0.99146,0.06662,Multiple Ancestries_Male_Enslaved,Multiple Ancestries_Female_Enslaved
+26,32,49,12,0,0,0.1,0.92981,1,Multiple Ancestries_Male_Enslaved,Multiple Ancestries_Female_Poor White
+26,33,49,6,0,0,0,0.96428,1,Multiple Ancestries_Male_Enslaved,Native American_Female_Indian Tribal Leader
+27,28,1,149,0,0,0,0.98163,1,Native American_Male_Indeterminable,Multiple Ancestries_Male_Poor White
+27,29,1,30,0,0,0,0.9963,1,Native American_Male_Indeterminable,Native American_Male_Indian Tribal Leader
+27,30,1,22,0,0,0,0.99729,1,Native American_Male_Indeterminable,White_Male_MultiClass Group
+27,31,1,70,0,0,0,0.99137,1,Native American_Male_Indeterminable,Multiple Ancestries_Female_Enslaved
+27,32,1,12,0,0,0,0.99852,1,Native American_Male_Indeterminable,Multiple Ancestries_Female_Poor White
+27,33,1,6,0,0,0,0.99926,1,Native American_Male_Indeterminable,Native American_Female_Indian Tribal Leader
+28,29,149,30,0,0,0.6,0.57275,1,Multiple Ancestries_Male_Poor White,Native American_Male_Indian Tribal Leader
+28,30,149,22,0,0,0.4,0.66466,1,Multiple Ancestries_Male_Poor White,White_Male_MultiClass Group
+28,31,149,70,0,0,1.3,0.27154,1,Multiple Ancestries_Male_Poor White,Multiple Ancestries_Female_Enslaved
+28,32,149,12,12,0,0.2,1,0,Multiple Ancestries_Male_Poor White,Multiple Ancestries_Female_Poor White
+28,33,149,6,0,0,0.1,0.89468,1,Multiple Ancestries_Male_Poor White,Native American_Female_Indian Tribal Leader
+29,30,30,22,0,0,0.1,0.92161,1,Native American_Male_Indian Tribal Leader,White_Male_MultiClass Group
+29,31,30,70,0,0,0.3,0.77064,1,Native American_Male_Indian Tribal Leader,Multiple Ancestries_Female_Enslaved
+29,32,30,12,0,0,0,0.95647,1,Native American_Male_Indian Tribal Leader,Multiple Ancestries_Female_Poor White
+29,33,30,6,0,0,0,0.978,1,Native American_Male_Indian Tribal Leader,Native American_Female_Indian Tribal Leader
+30,31,22,70,0,0,0.2,0.82616,1,White_Male_MultiClass Group,Multiple Ancestries_Female_Enslaved
+30,32,22,12,0,0,0,0.96791,1,White_Male_MultiClass Group,Multiple Ancestries_Female_Poor White
+30,33,22,6,0,0,0,0.98383,1,White_Male_MultiClass Group,Native American_Female_Indian Tribal Leader
+31,32,70,12,0,0,0.1,0.90114,1,Multiple Ancestries_Female_Enslaved,Multiple Ancestries_Female_Poor White
+31,33,70,6,0,0,0.1,0.9493,1,Multiple Ancestries_Female_Enslaved,Native American_Female_Indian Tribal Leader
+32,33,12,6,0,0,0,0.99115,1,Multiple Ancestries_Female_Poor White,Native American_Female_Indian Tribal Leader

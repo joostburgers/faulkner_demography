@@ -37,3 +37,5 @@ vignettes/*.pdf
 
 # R Environment Variables
 .Renviron
+data/full_database_2021_5_11.csv
+data/full_database_2021_5_11.csv
