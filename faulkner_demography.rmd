@@ -8,7 +8,7 @@ output:
     theme: serif
     incremental: true
     self_contained: false
-    reveal_plugins: ["menu"]
+    reveal_plugins: ["menu","zoom"]
     reveal_options:
       width: 1680
       height: 1050
@@ -16,7 +16,6 @@ output:
       menu:
         side: right
     fig_caption: true
-knit: (function(inputFile, encoding) { rmarkdown::render(inputFile, encoding = encoding, output_file = file.path(dirname(inputFile), 'index.html')) })
 ---
 
 ```{r setup, include=FALSE}
