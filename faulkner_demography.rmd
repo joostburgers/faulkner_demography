@@ -2,7 +2,7 @@
 title: "Faulkner at 30,000 Feet:"
 author: "Johannes Burgers"
 subtitle: "Characters, Locations and Events in Digital Yoknapatawpha"
-date: "7/12/2022"
+date: "7/19/2022"
 output: 
   revealjs::revealjs_presentation:
     theme: serif
@@ -130,11 +130,6 @@ location_export <- location_type %>%
 write_csv(location_export, "location_export.csv")
 ```
 
-# Overview
-
--   Apologize
--   Signals (Data)
--   Noise (Literature)
 
 # Navigation
 
@@ -142,6 +137,12 @@ This entire slide deck is available here: https://joostburgers.github.io/faulkne
 
 -   You can use the arrow keys to navigate (←) left and right (→) between sections
 -   Press ESC to see all the slides
+
+# Overview
+
+-   Apologize
+-   Signals (Data)
+-   Noise (Literature)
 
 
 # Digital Yoknapatawpha: A Miniature of Man's Hopes and Disasters
@@ -160,7 +161,7 @@ The goal of the project was to be as comprehensive as possible.
 -   2176 Locations
 -   8520 Events
 
-This is not as large as "big data", but it far exceeds the capacity of a single person to apprehend.
+- This is not as large as "big data", but it far exceeds the capacity of a single person to apprehend.
 
 # Fool about Some Data
 
@@ -966,9 +967,10 @@ tags$div(fig_cooccur_map_groups, class = "map_container fragment", align = "cent
 
 Follow us!
 
-<p><img src="images/twitter.png" alt="twitter" height="42px"><a href="https://twitter.com/DigYok">\@DigYok</a><br>
+<p align = "left"><img src="images/twitter.png" alt="twitter" height="42px"><a href="https://twitter.com/DigYok">\@DigYok</a><br>
 <img src="images/instagram.png" alt="instagram" height="42px"> <a href="https://www.instagram.com/digyok/">digyok</a><br>
 <img src="images/facebook.png" alt="facebook" height="42px"> <a href="https://www.facebook.com/digyok">Digital Yoknapatawpha</a><br>
 <img src="images/internet.png" alt="internet" height="42px"> <a href="http://faulkner.iath.virginia.edu/">http://faulkner.iath.virginia.edu</a><br>
+<img src="images/animated-email.gif" alt="internet" height="42px"> <a href="mailto:johannes.burgers@ashoka.edu.in">Johannes.Burgers@ashoka.edu.in</a><br>
 </p>
 
