@@ -137,7 +137,7 @@ This entire slide deck is available here:
 
 https://bit.ly/digyok
 
-<p align = "left"><img src="images/bitly_digyok.png" alt="twitter" height="500px"><a href="https://bit.ly/digyok"></a><br>
+<p align = "left"><img src="images/bitly_digyok.png" alt="QR code" height="500px"><a href="https://bit.ly/digyok"></a><br>
 
 -   You can use the arrow keys to navigate (←) left and right (→) between sections
 -   Press ESC to see all the slides
