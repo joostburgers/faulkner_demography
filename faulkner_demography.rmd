@@ -77,6 +77,10 @@ fig_caption <- "font-family: 'Playfair Display','Helvetica Neue',Helvetica,Arial
 plot_font <- list(family = "'Playfair Display','Helvetica Neue',Helvetica,Arial,sans-serif",
   size = 24,
   color = '#363636')
+
+plot_font_large <- list(family = "'Playfair Display','Helvetica Neue',Helvetica,Arial,sans-serif",
+  size = 36,
+  color = '#363636')
 ```
 
 ```{r load_libraries}
@@ -250,7 +254,7 @@ tags$div(fig_char_map, class = "map_container r-stretch", align = "center")
 
 # Racial Distribution
 
-Characters can be grouped together by a common attribute to determine the distribution in the population
+Characters can be grouped together by a common attribute to determine the distribution in the population.
 
 ```{r dy_characters, cache=TRUE}
 dy_raw_characters <- dy_events %>% 
@@ -293,6 +297,18 @@ tags$div(plot_demography, class = "map_container fragment", align = "center")
 ```
 
 <p class = "fragment">But this is misleading, because not all characters appear equally...</p>
+
+# {data-transition="zoom"}  
+
+```{r}
+plot_demography_large <- plot_demography %>% 
+                              layout(
+        height = 1050,
+        font = plot_font_large
+  )
+tags$div(plot_demography_large, class = "map_container", align = "center")
+
+```
 
 # Character Representation
 
@@ -415,6 +431,19 @@ tags$div(demography_sunburst, class = "map_container fragment", align = "center"
 ```
 
 <p class = "fragment">White Male characters are over-represented.</p>
+
+# {data-transition="zoom"}  
+
+```{r}
+demography_sunburst_large <- demography_sunburst %>% 
+                              layout(
+        height = 1050,
+        font = plot_font_large
+  )
+tags$div(demography_sunburst_large, class = "map_container", align = "center")
+```
+
+
 
 # Character Interaction
 
