@@ -178,10 +178,10 @@ The goal of the project was to be as comprehensive as possible.
 
 <!-- The corpus represents an ecosystem -->
 
-# Characters in Faulkner
+# Why do characters exist?
 
 <p class = "fragment">
-"How are [a character’s] appearances positioned in relation to other characters and to the thematic and structural totality of the narrative? Why does a particular character suddenly disappear from the narrative or abruptly begin to gain more narrative attention?" </p>
+"How are [a character’s] appearances positioned in relation to other characters and to the thematic and structural totality of the narrative? </p>
 
 <p class = "fragment citation"> Woloch, Alex. *The One Vs. The Many: Minor Characters and the Space of the Protagonist in the Novel.* Princeton University Press, 2009.</p>
 
@@ -194,69 +194,69 @@ all_characters <- dy_events %>%
 ```
 
 ```{r eco_system_map}
-image_file <- "https://raw.githubusercontent.com/joostburgers/absalom_sentiment_analysis/master/images/dy_base_layer_4_2.png"
-
-fig_char_map <-
-  plot_ly(
-    all_characters,
-    x = ~ X,
-    y = ~ Y,
-    name = "Characters",
-    #  colors = faulkner_colorway,
-    type = 'scatter',
-    mode = 'markers',
-     hoverinfo='text',
-    text= ~paste('Name:', CharacterName,'<br>Race: ',Race, '<br>Gender: ', Gender, '<br>Class: ', Class),
-     marker = list(
-        sizemode='diameter',
-        size = 6, 
-                  opacity = .4,
-                  line = list(width = 1, color = 'white')
-          ),
-    width = 900,
-     height = 705
-   
-  )
-fig_char_map <- fig_char_map %>%
-  layout(
-    title = "All Characters",
-    xaxis = list(
-      title = "",
-      visible = FALSE,
-      fixedrange = TRUE,
-      range = c(0, 2008)
-    ),
-    yaxis = list(
-      title = "",
-      visible = FALSE,
-      fixedrange = TRUE,
-      range = c(-1660, 0)
-    ),
-    margin = m,
-    font = plot_font,
-    legend = list(
-      title = list(text = "<b>Legend</b>"),
-      itemsizing = 'constant'
-    ),
-    autosize = F,
-      paper_bgcolor = faulkner_paperbackground,
-    plot_bgcolor = faulkner_plotcolor,
-    modebar = list(bgcolor = faulkner_paperbackground),
-    images = list(
-      list(
-        source =  image_file,
-        xref = "x",
-        yref = "y",
-        x = 0,
-        y = -40,
-        sizex = 2008,
-        sizey = 1660,
-         sizing = "stretch",
-        opacity = 0.8,
-        layer = "below"
-      )
-      )
-  )
+# image_file <- "https://raw.githubusercontent.com/joostburgers/absalom_sentiment_analysis/master/images/dy_base_layer_4_2.png"
+# 
+# fig_char_map <-
+#   plot_ly(
+#     all_characters,
+#     x = ~ X,
+#     y = ~ Y,
+#     name = "Characters",
+#     #  colors = faulkner_colorway,
+#     type = 'scatter',
+#     mode = 'markers',
+#      hoverinfo='text',
+#     text= ~paste('Name:', CharacterName,'<br>Race: ',Race, '<br>Gender: ', Gender, '<br>Class: ', Class),
+#      marker = list(
+#         sizemode='diameter',
+#         size = 6, 
+#                   opacity = .4,
+#                   line = list(width = 1, color = 'white')
+#           ),
+#     width = 900,
+#      height = 705
+#    
+#   )
+# fig_char_map <- fig_char_map %>%
+#   layout(
+#     title = "All Characters",
+#     xaxis = list(
+#       title = "",
+#       visible = FALSE,
+#       fixedrange = TRUE,
+#       range = c(0, 2008)
+#     ),
+#     yaxis = list(
+#       title = "",
+#       visible = FALSE,
+#       fixedrange = TRUE,
+#       range = c(-1660, 0)
+#     ),
+#     margin = m,
+#     font = plot_font,
+#     legend = list(
+#       title = list(text = "<b>Legend</b>"),
+#       itemsizing = 'constant'
+#     ),
+#     autosize = F,
+#       paper_bgcolor = faulkner_paperbackground,
+#     plot_bgcolor = faulkner_plotcolor,
+#     modebar = list(bgcolor = faulkner_paperbackground),
+#     images = list(
+#       list(
+#         source =  image_file,
+#         xref = "x",
+#         yref = "y",
+#         x = 0,
+#         y = -40,
+#         sizex = 2008,
+#         sizey = 1660,
+#          sizing = "stretch",
+#         opacity = 0.8,
+#         layer = "below"
+#       )
+#       )
+#   )
 
 #tags$div(fig_char_map, class = "map_container r-stretch", align = "center")
 #tags$caption(HTML("<i>Figure 2:</i> Map of each character."), style =fig_caption)
@@ -334,10 +334,10 @@ dy_events_characters <- dy_events %>%
 
 ```{r sunburst_data, cache=TRUE}
 #Get totals for each step of the sunburst
-sunburst_filter <- dy_events %>% 
-                  filter(PresentMentioned == "Present") %>%
+sunburst_filter <- dy_events %>%
+  filter(PresentMentioned == "Present") %>%
   filter(IndividualGroup == "Individual") %>%
-  filter(Gender != "Multi Gender Group") 
+  filter(Gender != "Multi Gender Group")
 
 total <-  sunburst_filter %>%
   count(CharacterName, "values") %>%
@@ -442,7 +442,7 @@ tags$div(demography_sunburst, class = "map_container fragment", align = "center"
 
 <p class = "fragment">White Male characters are over-represented.</p>
 
-# U {data-transition="zoom"}  
+# {data-transition="zoom"}  
 
 ```{r}
 demography_sunburst_large <- demography_sunburst %>% 
@@ -504,12 +504,12 @@ race_gender_matrix_plot <- plot_ly(
   opacity = .9,
   colors = faulkner_colorway[1],
   hovertemplate = paste('Count: %{y}<extra></extra>'),
-  height = 600
+  height = 1050
 )
 
 race_gender_matrix_plot <- race_gender_matrix_plot %>%
   layout(
-    font = plot_font,
+    font = plot_font_large,
     title = "Two Types of Characters are Alone Together",
     xaxis = list(title = "Interaction", categoryorder = "total ascending"),
     yaxis = list(title = "Number of Events"),
@@ -519,8 +519,15 @@ race_gender_matrix_plot <- race_gender_matrix_plot %>%
     modebar = list(bgcolor = faulkner_paperbackground)
   )
 
-tags$div(race_gender_matrix_plot, class = "map_container fragment", align = "center")
+
 ```
+
+# {data-transition="zoom"}  
+
+```{r}
+tags$div(race_gender_matrix_plot, class = "map_container", align = "center")
+```
+
 
 
 # Birds of a feather...
@@ -640,7 +647,7 @@ top_table_plot <- plot_ly(
   opacity=.9,
   colors= faulkner_colorway,
   hovertemplate=paste("Observed Co-Occurrence: %{y}<br>", "Expected Co-Occurrence:", round(top_table$exp_cooccur,0), "<extra></extra>"),
-  height = 600
+  height = 1050
  )
 
 top_table_plot <- top_table_plot %>%
@@ -658,7 +665,13 @@ top_table_plot <- top_table_plot %>%
 top_table_plot <- top_table_plot %>% 
             config(displayModeBar = FALSE)
 
-tags$div(top_table_plot, class = "map_container fragment", align = "center")
+
+```
+
+# {data-transition="zoom"}  
+
+```{r}
+tags$div(top_table_plot, class = "map_container", align = "center")
 ```
 
 # Interactions are Place Specific
@@ -674,6 +687,11 @@ There are **31** character types that combine in **528** different ways across *
 Principal Component Analysis is a useful technique to reduce the number of dimensions in a data set.
 
 It calculates which components account for the most variance in the data.
+
+One common application is in genetics research, where cancer cells might have thirty different properties. No one individual property makes it malignant, but some combinations are worse than others.
+
+<p align = "left"><img src="images/cancerPCA.png" alt="QR code" height="500px"><a href="https://bit.ly/digyok"></a><br>
+
 
 ```{r}
 co_occurrence_locations <- dy_events %>%
@@ -771,11 +789,11 @@ plot_pca <-
     #hovertext = tagged_types$intersection,
     type = 'scatter',
     mode = 'markers',
-    width = 1000,
-    height = 600
+    #width = 1000,
+    height = 1050
   ) %>%
   layout(
-    title = list(text = 'PCA Character Interaction by Location var='),
+    title = list(text = 'PCA Character Interaction by Location var=61%'),
     legend = list(title = list(text = 'Co-occurrence')),
     xaxis = list(title = "0"),
     yaxis = list(title = "1"),
@@ -784,7 +802,7 @@ plot_pca <-
     plot_bgcolor = faulkner_plotcolor,
      margin = m,
     font = list(family = "'Playfair Display','Helvetica Neue',Helvetica,Arial,sans-serif",
-  size = 16, color = '#363636'),
+  size = 24, color = '#363636'),
     modebar = list(bgcolor = faulkner_paperbackground)
   )
 
@@ -810,8 +828,17 @@ for (i in seq(12)) {
     )
 }
 
-tags$div(plot_pca, class = "map_container fragment", align = "center")
+
 ```
+
+# Plantation vs. Non-Plantation {data-transition="zoom"}
+
+```{r}
+tags$div(plot_pca, class = "map_container", align = "center")
+
+```
+
+
 
 
 # Mapping Character Interaction
@@ -935,8 +962,8 @@ fig_cooccur_map_groups <-
       opacity = .7,
       line = list(width = 1, color = 'white')
     ),
-    width = 1200,
-    height = 800
+    width = 1600,
+    height = 1050
     
   )
 fig_cooccur_map_groups <- fig_cooccur_map_groups %>%
@@ -982,9 +1009,18 @@ fig_cooccur_map_groups <- fig_cooccur_map_groups %>%
 
 fig_cooccur_map_groups <- fig_cooccur_map_groups %>% animation_opts(1000, easing = "circle-in-out", redraw = FALSE)
 
-tags$div(fig_cooccur_map_groups, class = "map_container fragment", align = "center")
+
 
 ```
+
+# {data-transition="zoom"}
+
+
+```{r}
+tags$div(fig_cooccur_map_groups, class = "map_container", align = "center")
+```
+
+
 
 # Implications
 
@@ -992,9 +1028,8 @@ tags$div(fig_cooccur_map_groups, class = "map_container fragment", align = "cent
 
 - What is the function of "background" characters? Do they "exist" or are they really just part of the setting?
 
-- What does it mean for the reader when the social world is represented continously in one way throughout a work of fiction?
 
-# Thank you!
+# Thank you for your patience!
 
 Follow us!
 
