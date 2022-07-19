@@ -160,6 +160,8 @@ https://bit.ly/digyok
 -   I still catch data encoding mistakes
 -   ...that I made
 -   Sorry!
+-   I'm doubly sorry for the next thing...
+-   there will be some math.
 
 # Small Town / Big Data
 
@@ -170,10 +172,18 @@ The goal of the project was to be as comprehensive as possible.
 -   8520 Events
 
 - This is not as large as "big data", but it far exceeds the capacity of a single person to apprehend.
+- This data can be used to complement, disrupt, irritate, and otherwise re-consider our assumptions about Faulkner.
 
-# Fool about Some Data
+<!-- # Fool about Some Data -->
 
-The corpus represents an ecosystem
+<!-- The corpus represents an ecosystem -->
+
+# Characters in Faulkner
+
+<p class = "fragment">
+"How are [a character’s] appearances positioned in relation to other characters and to the thematic and structural totality of the narrative? Why does a particular character suddenly disappear from the narrative or abruptly begin to gain more narrative attention?" </p>
+
+<p class = "fragment citation"> Woloch, Alex. *The One Vs. The Many: Minor Characters and the Space of the Protagonist in the Novel.* Princeton University Press, 2009.</p>
 
 ```{r all_character_data}
 all_characters <- dy_events %>% 
@@ -248,7 +258,7 @@ fig_char_map <- fig_char_map %>%
       )
   )
 
-tags$div(fig_char_map, class = "map_container r-stretch", align = "center")
+#tags$div(fig_char_map, class = "map_container r-stretch", align = "center")
 #tags$caption(HTML("<i>Figure 2:</i> Map of each character."), style =fig_caption)
 ```
 
@@ -432,7 +442,7 @@ tags$div(demography_sunburst, class = "map_container fragment", align = "center"
 
 <p class = "fragment">White Male characters are over-represented.</p>
 
-# {data-transition="zoom"}  
+# U {data-transition="zoom"}  
 
 ```{r}
 demography_sunburst_large <- demography_sunburst %>% 
@@ -442,18 +452,6 @@ demography_sunburst_large <- demography_sunburst %>%
   )
 tags$div(demography_sunburst_large, class = "map_container", align = "center")
 ```
-
-
-
-# Character Interaction
-
-<p class = "fragment">Characters do not simply appear in the corpus at random they follow a plot.</p>
-
-<p class = "fragment">
-"How are [a character’s] appearances positioned in relation to other characters and to the thematic and structural totality of the narrative? Why does a particular character suddenly disappear from the narrative or abruptly begin to gain more narrative attention?" </p>
-
-<p class = "fragment citation"> Woloch, Alex. *The One Vs. The Many: Minor Characters and the Space of the Protagonist in the Novel.* Princeton University Press, 2009.</p>
-
 
 # Characters as Types
 
