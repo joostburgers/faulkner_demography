@@ -172,7 +172,7 @@ The goal of the project was to be as comprehensive as possible.
 -   8520 Events
 
 - This is not as large as "big data", but it far exceeds the capacity of a single person to apprehend.
-- This data can be used to complement, disrupt, irritate, and otherwise re-consider our assumptions about Faulkner.
+- This data can be used to complement, disrupt, irritate, and otherwise make us reconsider our assumptions about Faulkner.
 
 <!-- # Fool about Some Data -->
 
@@ -399,7 +399,7 @@ demography_sunburst <-
       sep = ""
     ),
     branchvalues = 'total',
-    height = 700
+    height = 1000
   )
 
 demography_sunburst <- demography_sunburst %>%
@@ -429,7 +429,7 @@ demography_sunburst <- demography_sunburst %>%
       "#e6d812"
     ),
     #The colorway had to be reversed to account for Plotly taking the higher value to match the colorway.
-    font = plot_font,
+    font = plot_font_large,
     margin = list(l = 50, r = 50, b = 50, t = 80, pad = 4),
     paper_bgcolor = faulkner_paperbackground,
     plot_bgcolor = faulkner_plotcolor,
@@ -437,21 +437,15 @@ demography_sunburst <- demography_sunburst %>%
   )
 
 
+
+```
+
+# Sunburst
+```{r}
 tags$div(demography_sunburst, class = "map_container fragment", align = "center")
 ```
 
-<p class = "fragment">White Male characters are over-represented.</p>
 
-# {data-transition="zoom"}  
-
-```{r}
-demography_sunburst_large <- demography_sunburst %>% 
-                              layout(
-        height = 1050,
-        font = plot_font_large
-  )
-tags$div(demography_sunburst_large, class = "map_container", align = "center")
-```
 
 # Characters as Types
 
